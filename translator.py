@@ -10,8 +10,8 @@ except NameError:
 from googletrans import Translator
 translator = Translator()
 
-mainLanguageName = "en"
-targetLanguages = ["fr", "tr"]
+mainLanguageName = "en" #kendi oluşturduğunuz dil json dosyasının kodunu yazın. dosa adi ile aynı olmalıdır
+targetLanguages = ["fr", "tr"]# çevirilmesini istediğiniz dillein kodlarını yazınız
 
 
 def createNewLanguageFile(fileName):
